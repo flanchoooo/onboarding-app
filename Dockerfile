@@ -38,7 +38,7 @@ RUN npm install --save-dev vite
 RUN npm run build
 
 CMD ["php", "artisan", "storage:link"]
-CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8011"]
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
 #CMD ["php", "artisan", "migrate"]
 #CMD ["php", "artisan", "db:seed"]
 #CMD php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=7111
